@@ -11,8 +11,9 @@ NumOfRA NUMBER
 
 insert into TBL_YH_USERINFO(userid, USERNAME, accountNum, PhoneNum)
 values ('user01', '맹윤호', '우리은행 123-456-78901', '010-1234-1234');
+-- github 연동을 위한 라인추가 테스트
 insert into TBL_YH_USERINFO(userid, USERNAME, accountNum, PhoneNum)
-values ('user02', '홍길동', '국민은행 123-456-78901', '010-4342-1234');
+values ('user02', '홍길동', '국민은행 123-456-78901', '010-4342-3244');
 
 update TBL_YH_USERINFO
 set NumOfRA = 3
